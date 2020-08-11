@@ -1,0 +1,16 @@
+[package]
+name = "ibus-memebox-rust"
+version = "0.1.0"
+authors = ["Mick Sayson <mick@sayson.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ibus = { git = "https://github.com/sphaerophoria/ibus-rs" }
+ibus-sys = { git = "https://github.com/sphaerophoria/ibus-sys" }
+emoji_searcher = { git = "https://github.com/sphaerophoria/emoji_searcher" }
+glib = "0.10.1"
+rand = "0.7.3"
+log = "0.4.11"
+pretty_env_logger = "0.4.0"

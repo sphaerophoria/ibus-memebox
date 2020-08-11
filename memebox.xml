@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- filename: uniemoji.xml -->
+<component>
+    <name>org.freedesktop.IBus.memebox</name>
+    <description>For the memes</description>
+    <version>0.0.1</version>
+    <license>GPL</license>
+    <author>Mick Sayson</author>
+    <homepage>https://github.com/sphaerophoria/ibus-memebox</homepage>
+    <exec>PATH/TO/MEMEBOX/ibus-memebox-rust/target/release/ibux-memebox-rust</exec>
+    <textdomain>memebox</textdomain>
+    <engines>
+        <engine>
+            <name>memebox</name>
+            <longname>memebox</longname>
+            <description>For the memes</description>
+            <language></language>
+            <license>GPL</license>
+            <author>Mick Sayson</author>
+            <icon></icon>
+            <layout>us</layout>
+            <layout_variant></layout_variant>
+            <layout_option></layout_option>
+            <hotkeys></hotkeys>
+            <symbol>:)</symbol>
+            <setup></setup>
+            <version></version>
+            <textdomain></textdomain>
+            <rank>0</rank>
+        </engine>
+    </engines>
+</component>
